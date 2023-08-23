@@ -1,0 +1,129 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "FirebaseAnalytics",
+        "printedName": "FirebaseAnalytics",
+        "declKind": "Import",
+        "moduleName": "FirebaseAnalyticsSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FirebaseAnalyticsSwift"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "analyticsScreen",
+            "printedName": "analyticsScreen(name:class:extraParameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP017FirebaseAnalyticsA0E15analyticsScreen4name5class15extraParametersQrSS_SSSDySSypGtF",
+            "mangledName": "$s7SwiftUI4ViewP017FirebaseAnalyticsA0E15analyticsScreen4name5class15extraParametersQrSS_SSSDySSypGtF",
+            "moduleName": "FirebaseAnalyticsSwift",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "TypeEraser",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/var\/folders\/24\/8k48jl6d249_n_qfxwsl6xvm0000gn\/T\/ZipRelease\/2023-08-19T04-03-39\/project-macos\/Pods\/FirebaseAnalyticsSwift\/FirebaseAnalyticsSwift\/Sources\/Analytics+SwiftUI.swift",
+      "kind": "StringLiteral",
+      "offset": 2594,
+      "length": 6,
+      "value": "\"View\""
+    },
+    {
+      "filePath": "\/var\/folders\/24\/8k48jl6d249_n_qfxwsl6xvm0000gn\/T\/ZipRelease\/2023-08-19T04-03-39\/project-macos\/Pods\/FirebaseAnalyticsSwift\/FirebaseAnalyticsSwift\/Sources\/Analytics+SwiftUI.swift",
+      "kind": "Dictionary",
+      "offset": 2660,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}
